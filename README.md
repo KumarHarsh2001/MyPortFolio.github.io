@@ -9,4 +9,5 @@
 ## visit this site via below link:-
 * [Click Here][ce].
 
-   [ce]: <https://kumarharsh2001.github.io/MyPortFolio.github.io.git/>
+   [ce]: <https://kumarharsh2001.github.io/MyPortFolio.github.io/>
+   
