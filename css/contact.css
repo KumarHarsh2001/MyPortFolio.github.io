@@ -1,0 +1,117 @@
+.contact-box{
+    width: 80%;
+    height: 90%;
+    position: relative;
+    top: 7%;
+    margin-left: 11%;
+    /* background-color: transparent; */
+}
+.contect-head{
+    width: 80%;
+    height: 10%;
+    margin: 10% auto 0;
+    position: relative;
+    top: 15%;
+    font-size: 1.8rem;
+    text-align: center;
+    text-decoration: underline;
+}
+#form_style{
+    margin: 5% 5% 3%;
+    padding-top: 4%;
+    background: linear-gradient(210deg, rgba(124,58,180,1) 0%, rgba(231,20,200,1) 55%, rgb(252, 69, 78) 100%);
+    border: 1px solid rgb(252, 69, 78);
+    border-radius: 15px;
+}
+.form-input{
+    padding: 1% 2%;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid rgb(4, 4, 56); */
+}
+.Label{
+    font-weight: bold;
+    margin-bottom: 1%;
+    padding-left: 2%;
+    color: rgb(255, 255, 255);
+}
+::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 1; /* Firefox */
+  }
+.Input{
+    color: rgb(255, 255, 255);
+    /* padding-left: 0.6rem; */
+    padding: 5px 0.6rem;
+    border: 1px solid rgba(255, 255, 255, 0.852);
+    border-radius: 12px;
+    background-color: transparent;
+    outline: none
+}
+
+.Input:focus{
+    border: 1px solid rgba(255, 255, 255, 0.852);
+    box-shadow: 0 0 8px;
+}
+#query-input{
+    height: 15vh;
+    padding-left: 0.6rem;
+    border: 1px solid rgba(255, 255, 255, 0.852);
+    border-radius: 12px;
+    background-color: transparent;
+    outline: none
+}
+#query-input:focus{
+    border: 1px solid rgba(255, 255, 255, 0.852);
+    box-shadow: 0 0 8px;
+}
+#btnF{
+    width: 16%;
+    margin: auto;
+}
+.contact-btn{
+    padding: 4% 19%;
+    margin: 8%;
+    color: white;
+    background: linear-gradient(25deg, rgba(124,58,180,1) 0%, rgba(231,20,200,1) 55%, rgba(69,90,252,1) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.852);
+    border-radius: 1em;
+
+}
+.contact-btn:hover{
+    padding: 4% 19%;
+    color:  rgb(242, 242, 242);
+    background:linear-gradient(200deg, rgba(124,58,180,1) 0%, rgba(231,20,200,1) 55%, rgba(69,90,252,1) 100%);
+    box-shadow: 0 0 10px;
+    border: 1px  solid white;
+}
+@media only screen and (max-width:550px){
+    .contect-head{
+        width: 80%;
+        height: 10%;
+        margin: 10% auto 0;
+        position: relative;
+        top: 10%;
+        font-size: 1.8rem;
+        text-align: center;
+        text-decoration: underline;
+    }
+    #Contact{
+        top: 89vh;
+    }
+    .contact-box{
+        top: 13%;
+    }
+    #form_style {
+        margin: 0;
+        height: 50%;
+        width: 100%;
+    }
+    #query-input{
+        padding-top: 5px;
+    }
+    #btnF {
+        width: 50%;
+        margin-left: 29%;
+    }
+}
